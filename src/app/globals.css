@@ -53,12 +53,16 @@ html {
   z-index: 3;
 }
 .maa{
+  
+
+  background: darkslategrey;
   width: 100dvw;
   height: 100dvh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  border: solid wheat 2dvh;
 }
 @media (max-width: 760px) {
 .table{
@@ -261,10 +265,10 @@ translate:-25vw 25vh;
 .uselessclass2 {
 }
 .main {
-  width: 200vw;
-  background-image: url("images/bg2.png");
-  background-size: fill;
+  width: 100dvw;
 
+
+ 
   height: 100dvh;
 }
 .forms{
@@ -274,8 +278,10 @@ translate:-25vw 25vh;
   flex-direction: row;
   align-items: flex-start;
   z-index: 2;
-  top:15dvh;
+  top:-2dvh;
   width: 40dvh;
+  filter: sepia(40%) contrast(107%) saturate(170%);
+
 }
 .acko {
   width: 100dvw;
@@ -288,10 +294,20 @@ translate:-25vw 25vh;
 }
 
 .oldman{
-width:fit-content;
+width:50dvh;
 height: fit-content;
-scale: 1.5;
+filter: sepia(40%) contrast(107%) saturate(170%);
 
+}
+
+
+.pinr{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.pin1,.pin2,.pin3,.pin4{
+  height: 67px;
 }
 
 .parallelogram {

@@ -1,11 +1,11 @@
 {
-  "name": "POrtfolio",
+  "name": "DEVDEN",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev --turbo",
-    "build": "next build --turbo",
-    "start": "next start",
+    "build": "next build ",
+    "start": "next start -p 7124",
     "lint": "next lint"
   },
   "dependencies": {
